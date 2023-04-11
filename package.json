@@ -1,16 +1,15 @@
 {
   "name": "@factisresearch/docker-compose-spec-typescript",
-  "version": "2.0.0",
+  "version": "2.0.1",
+  "type": "module",
   "description": "Docker Compose configuration file schemas as TypeScript interfaces.",
-  "files": [
-    "lib"
-  ],
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
-    "build": "ts-node build.ts"
+    "build": "ts-node --esm build.ts && tsc index.ts"
   },
+  "files": [
+    "index.js",
+    "index.ts"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/factisresearch/docker-compose-spec-typescript.git"
