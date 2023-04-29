@@ -1,6 +1,6 @@
 {
   "name": "@factisresearch/compose-spec",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "type": "module",
   "description": "Docker Compose configuration file schemas as TypeScript interfaces.",
   "scripts": {
